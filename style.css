@@ -238,10 +238,10 @@
         }
         .carousel-container {
             flex: 1;
-            padding: 20px;
+            padding: 60px;
         }
         .carousel-item img {
-            height: 300px;
+            height: 350px;
             object-fit: cover;
         }
         .carousel-control-prev-icon,
