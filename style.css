@@ -1,4 +1,4 @@
-        body {
+         body {
             background-color: #f8f9fa;
             padding-top: 40px;
         }
@@ -251,7 +251,7 @@
             padding: 15px;
         }
         .partner-logo {
-            height: 80px;
+            height: 100px;
             margin: 15px;
             object-fit: contain;
             filter: grayscale(100%);
@@ -353,10 +353,26 @@
                 margin: 5px 0;
             }
             .partner-logo {
-                height: 60px;
+                height: 90px;
                 margin: 10px;
             }
             .sponsors-grid {
                 gap: 15px;
             }
         }
+        @media (max-width: 768px) {
+    .carousel-item img {
+        height: 280px; 
+        width: 100%; 
+        object-fit: cover;
+    }
+    
+    .carousel-container {
+        padding: 20px; 
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        padding: 10px;
+    }
+}
